@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
+    <title>Pallete Form</title>
+    <link rel="icon" href="./src/assets/icon.png" />
+  </head>
+  <body>
+    <script src="src/index.js" type="text/javascript"></script>
+    <h3 class="title">Pallete Form</h3>
+
+    <div class="form">
+      <form id="form1">
+        <label for="input_text">Input Text:</label>
+        <input type="text" name="inputText" id="input_text" />
+        <label for="text_color">Text Color:</label>
+        <input type="text" name="textColor" id="text_color" />
+        <label for="image_url">Images URL:</label>
+        <input type="text" name="input text" id="image_url" />
+        <label for="font_size">Font Size:</label>
+        <input type="text" name="font size:" id="font_size" />
+        <button type="button" class="button" onclick="getInput()">
+          Submit
+        </button>
+      </form>
+
+      <div class="outputView">
+        <div class="outputHeading">Output Wizard</div>
+        <div class="outputContent">
+          <text id="op"></text>
+          <img id="opimg" src="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
