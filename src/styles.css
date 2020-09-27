@@ -17,8 +17,8 @@ h3 {
   font-size: 16px;
   border-radius: 10px;
 }
-.outputView {
-  display: flex;
+#outputView {
+  display: none;
   flex-direction: column;
   margin-top: 20px;
   background-color: #fff;
@@ -46,11 +46,16 @@ h3 {
   margin: 0px;
   font-weight: normal;
   font-family: sans-serif;
+  width: 100%;
+  word-wrap: break-word;
 }
-img {
-  width: 300px;
-  margin-top: 10px;
+#opimg {
+  display: none;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
+
 input[type='text'] {
   width: 100%;
   padding: 10px 14px;
